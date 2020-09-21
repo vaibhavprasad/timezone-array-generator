@@ -1,3 +1,4 @@
+```
 var tzArr = [];
 moment.tz.names().forEach(item => {
     let temp = {};
@@ -8,8 +9,10 @@ moment.tz.names().forEach(item => {
     temp.value = zone.name;
     tzArr.push(temp);
 })
-
-
+```
+  
+  
+```
 offsetMap = {
 	'0': 'GMT',
 	'44.5': 'GMT-00:45',
@@ -57,3 +60,4 @@ offsetMap = {
 	'-780': 'GMT+13:00',
 	'-840': 'GMT+14:00'
 }
+```
